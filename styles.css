@@ -83,3 +83,10 @@ li{
     font-size: 18px;
     font-weight: bold; 
 }
+
+.thumbnails img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
