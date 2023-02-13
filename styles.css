@@ -112,6 +112,10 @@ li{
 
 .quotation{
     background-color: #E5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 150px;
 }
 
 q{
@@ -122,4 +126,6 @@ q{
 
 .quotation > p{
     font-weight: bold;
+    align-self: flex-end;
+    
 }
