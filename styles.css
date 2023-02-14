@@ -167,3 +167,10 @@ q{
 .action-subtext{
     margin: 0px;
 }
+
+/*********-----FOOTER-----******/
+footer{
+    background-color: #1F2937;
+    color:#E5e7eb;
+    text-align: center;
+}
