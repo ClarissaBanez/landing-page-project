@@ -101,7 +101,7 @@ li{
 .carousel{
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
     padding: 80px;
     flex-wrap: wrap;
 }
@@ -111,6 +111,7 @@ li{
     flex-direction: column; */
     flex:  0 150px;
     text-align: center;
+    margin: 0px;
 }
 /************---QUOTATION----*******/
 
