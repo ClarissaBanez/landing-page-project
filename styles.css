@@ -143,19 +143,27 @@ q{
     display: flex;
     padding: 20px 40px;
     align-items:center;
+    gap: 10px;
     justify-content: space-between;
 }
 
 .action > input {
     background-color: #3882F6;
     border-radius: 10px;
-    border-color: #E5e7eb;
+    border: 2px solid #E5e7eb;
     color: #E5e7eb;
     padding: 5px 25px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;   
 }
 .action-left{
     display: flex;
     flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+.action-text,
+.action-subtext{
+    margin: 0px;
 }
