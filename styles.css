@@ -1,9 +1,6 @@
-*{
-    /* border: 3px solid pink; */
-}
 body {
-    margin: 0px;
     font-family: Roboto;
+    margin: 0px;
 }
 
 /************---HEADER SECTION---************/
@@ -36,23 +33,23 @@ li{
 
 .nav-flex{
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: flex-end;
     min-width: 400px;
-    gap: 20px;
     padding: 0px;
-    flex-wrap: wrap;
 }
 
 /************---HERO SECTION---************/
 .hero {
+    align-items:stretch;
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
-    background-color: #1F2937;
-    padding: 80px;
-    justify-content: space-evenly;
-    align-items:stretch;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: space-evenly;
+    padding: 80px;
 }
 
 .hero-left{
@@ -60,67 +57,65 @@ li{
 }
 
 .hero > img{
-    min-width: 300px;
     flex: 1 1 300px;
+    min-width: 300px;
     object-fit:contain;
 }
 
 .hero-text {
-    font-size: 48px;
     color: #f9faf8;
+    font-size: 48px;
     font-weight:900;
     margin: 0
 }
 
 .hero-subtext{
-    font-size: 18px;
     color: #e5e7eB;
+    font-size: 18px;
 }
 
 .button {
     background-color: #3882F6;
-    padding: 10px;
     border-radius: 8px;
     border: none;
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold; 
+    padding: 10px;
 }
 /**********---THUMBNAILS----*********/
 .information {
-    text-align: center;
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
 .thumbnails img{
-    width: 150px;
+    border-radius: 10px;
     height: 150px;
     object-fit: cover;
-    border-radius: 10px;
+    width: 150px;
 }
 
 .carousel{
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 50px 80px;
     flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 50px 80px;
 }
 
 .thumbnails{
-    /* display: flex;
-    flex-direction: column; */
     flex:  0 150px;
-    text-align: center;
     margin: 0px;
+    text-align: center;
 }
 /************---QUOTATION----*******/
 
 .quotation{
+    align-items: flex-start;
     background-color: #E5e7eb;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 150px;
 }
 
@@ -131,21 +126,20 @@ q{
 }
 
 .quotation > p{
-    font-weight: bold;
     align-self: flex-end;
-    
+    font-weight: bold;
 }
 /**********---ACTION----*******/
 .action{
+    align-items:center;
     background-color: #3882F6;
-    margin: 80px 150px;
     border-radius: 10px;
     color:#E5e7eb;
     display: flex;
-    padding: 20px 40px;
-    align-items:center;
     gap: 10px;
     justify-content: space-between;
+    margin: 80px 150px;
+    padding: 20px 40px;
 }
 
 .action > input {
@@ -153,9 +147,9 @@ q{
     border-radius: 10px;
     border: 2px solid #E5e7eb;
     color: #E5e7eb;
-    padding: 5px 25px;
     font-size: 16px;
     font-weight: bold;   
+    padding: 5px 25px;
 }
 .action-left{
     display: flex;
@@ -173,6 +167,6 @@ q{
 footer{
     background-color: #1F2937;
     color:#E5e7eb;
+    padding: 20px;
     text-align: center;
-    padding: 20px
 }
