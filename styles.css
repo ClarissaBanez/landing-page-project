@@ -36,6 +36,7 @@ li{
 
 .nav-flex{
     display: flex;
+    justify-content: flex-end;
     min-width: 400px;
     gap: 20px;
     padding: 0px;
