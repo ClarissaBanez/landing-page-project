@@ -134,3 +134,28 @@ q{
     align-self: flex-end;
     
 }
+/**********---ACTION----*******/
+.action{
+    background-color: #3882F6;
+    margin: 80px 150px;
+    border-radius: 10px;
+    color:#E5e7eb;
+    display: flex;
+    padding: 20px 40px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.action > input {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #E5e7eb;
+    color: #E5e7eb;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: bold;   
+}
+.action-left{
+    display: flex;
+    flex-direction: column;
+}
