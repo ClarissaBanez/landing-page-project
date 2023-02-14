@@ -1,5 +1,5 @@
 *{
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
 }
 body {
     margin: 0px;
@@ -173,4 +173,5 @@ footer{
     background-color: #1F2937;
     color:#E5e7eb;
     text-align: center;
+    padding: 20px
 }
