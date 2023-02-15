@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 20px 15%;
+    padding: 20px 80px;
     flex-wrap: wrap;
 
 }
@@ -49,7 +49,7 @@ li{
     flex-wrap: wrap;
     gap: 30px;
     justify-content: space-evenly;
-    padding: 80px 15%;
+    padding: 80px;
 }
 
 .hero-left{
@@ -101,7 +101,7 @@ li{
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    padding: 50px 15%;
+    padding: 50px 80px;
 }
 
 .thumbnails{
